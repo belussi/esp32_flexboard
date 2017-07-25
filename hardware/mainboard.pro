@@ -1,4 +1,4 @@
-update=pon, 24 lip 2017, 21:45:53
+update=wto, 25 lip 2017, 18:35:58
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=stm32
+LibName30=deps/ESP32-kiCAD-Footprints/ESP32-Footprints/espressif-xess
