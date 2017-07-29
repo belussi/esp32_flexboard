@@ -1,4 +1,4 @@
-update=wto, 25 lip 2017, 18:35:58
+update=sob, 29 lip 2017, 18:19:01
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,6 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=deps/ESP32-kiCAD-Footprints/ESP32-Footprints/espressif-xess
+LibName31=silabs
+LibName32=mylibrary
+LibName33=ESD_Protection
