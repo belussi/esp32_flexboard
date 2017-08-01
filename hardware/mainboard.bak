@@ -51,10 +51,13 @@ $Sheet
 S 2750 2850 850  950 
 U 597CE1AF
 F0 "USB_UART" 60
-F1 "usb_uartsch.sch" 60
+F1 "usb_uart.sch" 60
+F2 "TXD" O R 3600 3100 60 
+F3 "RXD" I R 3600 3250 60 
+F4 "VDD" I R 3600 3450 60 
 $EndSheet
 $Sheet
-S 4550 3000 950  750 
+S 4300 2850 850  950 
 U 597CE33F
 F0 "ESP32WROOM" 60
 F1 "esp32wroomsch.sch" 60

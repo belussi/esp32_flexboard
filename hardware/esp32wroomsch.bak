@@ -270,21 +270,40 @@ F 3 "" H 4200 4500 50  0001 C CNN
 $EndComp
 Text Notes 4350 4950 2    60   ~ 0
 JTAG Connector
-Text GLabel 5400 4200 0    48   Input ~ 0
+Text Label 8250 3300 0    60   ~ 0
+TXD0
+Text Label 8250 3400 0    60   ~ 0
+RXD0
+Text HLabel 3200 2100 0    60   Output ~ 0
+TXD
+Text HLabel 3200 2200 0    60   Input ~ 0
+RXD
+Text HLabel 3200 1900 0    60   Input ~ 0
+VDD
+Text Label 3300 2100 0    60   ~ 0
+TXD0
+Text Label 3300 2200 0    60   ~ 0
+RXD0
+$Comp
+L VDD #PWR?
+U 1 1 59811B5D
+P 3500 1850
+F 0 "#PWR?" H 3500 1700 50  0001 C CNN
+F 1 "VDD" H 3500 2000 50  0000 C CNN
+F 2 "" H 3500 1850 50  0001 C CNN
+F 3 "" H 3500 1850 50  0001 C CNN
+	1    3500 1850
+	1    0    0    -1  
+$EndComp
+Text Label 4650 4200 0    60   ~ 0
 TMS
-Text GLabel 5400 4300 0    48   Input ~ 0
-TDI
-Text GLabel 7450 5400 3    48   Output ~ 0
-TDO
-Text GLabel 4650 4200 2    48   Input ~ 0
+Text Label 5400 4200 0    60   ~ 0
 TMS
-Text GLabel 4650 4500 2    48   Input ~ 0
+Text Label 4650 4500 0    60   ~ 0
 TDI
-Text GLabel 4650 4400 2    48   Output ~ 0
-TDO
-Text GLabel 6750 5400 3    48   Input ~ 0
-TCK
-Text GLabel 4650 4300 2    48   Input ~ 0
+Text Label 5400 4300 0    60   ~ 0
+TDI
+Text Label 4650 4300 0    60   ~ 0
 TCK
 Wire Wire Line
 	5450 3000 5750 3000
@@ -323,11 +342,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 4400 4050 4400
 Wire Wire Line
-	4350 4200 4650 4200
+	4350 4200 4800 4200
 Wire Wire Line
-	4350 4300 4650 4300
+	4350 4300 4800 4300
 Wire Wire Line
-	4350 4400 4650 4400
+	4350 4400 4800 4400
 Wire Wire Line
 	5750 4200 5400 4200
 Wire Wire Line
@@ -337,7 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 4500 4050 4500
 Wire Wire Line
-	4350 4500 4650 4500
+	4350 4500 4800 4500
 Wire Wire Line
 	5400 4300 5750 4300
 Wire Wire Line
@@ -357,4 +376,22 @@ Wire Wire Line
 Wire Wire Line
 	6050 1900 5900 1900
 Connection ~ 5900 1900
+Wire Wire Line
+	8150 3300 8450 3300
+Wire Wire Line
+	8150 3400 8450 3400
+Wire Wire Line
+	3200 1900 3500 1900
+Wire Wire Line
+	3200 2100 3500 2100
+Wire Wire Line
+	3200 2200 3500 2200
+Wire Wire Line
+	3500 1900 3500 1850
+Text Label 6750 5400 1    60   ~ 0
+TCK
+Text Label 7450 5400 1    60   ~ 0
+TDO
+Text Label 4650 4400 0    60   ~ 0
+TDO
 $EndSCHEMATC
