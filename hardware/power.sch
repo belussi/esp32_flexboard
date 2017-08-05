@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -47,34 +47,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 2750 2850 850  950 
-U 597CE1AF
-F0 "USB_UART" 60
-F1 "usb_uart.sch" 60
-F2 "TXD" O R 3600 3100 60 
-F3 "RXD" I R 3600 3250 60 
-F4 "VDD" I R 3600 3450 60 
-$EndSheet
-$Sheet
-S 4300 2850 850  950 
-U 597CE33F
-F0 "ESP32WROOM" 60
-F1 "esp32wroomsch.sch" 60
-F2 "TXD" O L 4300 3250 60 
-F3 "RXD" I L 4300 3100 60 
-F4 "VDD" I L 4300 3450 60 
-$EndSheet
-Wire Wire Line
-	3600 3100 4300 3100
-Wire Wire Line
-	3600 3250 4300 3250
-Wire Wire Line
-	3600 3450 4300 3450
-$Sheet
-S 5850 2850 900  950 
-U 59862CC8
-F0 "power" 60
-F1 "power.sch" 60
-$EndSheet
+$Comp
+L BQ24266 U?
+U 1 1 598635CC
+P 3500 2600
+F 0 "U?" H 3500 2550 60  0000 C CNN
+F 1 "BQ24266" H 3500 2550 60  0000 C CNN
+F 2 "" H 3500 2550 60  0001 C CNN
+F 3 "" H 3500 2550 60  0001 C CNN
+	1    3500 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
