@@ -41,4 +41,8 @@ K Broadcast AM FM SW LW Radio Receiver RDS RBDS
 F http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf
 $ENDCMP
 #
+$CMP VBAT_SYS
+K POWER, PWR
+$ENDCMP
+#
 #End Doc Library
