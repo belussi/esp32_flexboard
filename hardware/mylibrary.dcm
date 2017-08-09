@@ -45,4 +45,8 @@ $CMP VBAT_SYS
 K POWER, PWR
 $ENDCMP
 #
+$CMP VUSB
+K POWER, PWR
+$ENDCMP
+#
 #End Doc Library
