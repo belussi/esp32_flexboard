@@ -74,7 +74,7 @@ Wire Wire Line
 $Sheet
 S 5850 2850 900  950 
 U 59862CC8
-F0 "power" 60
-F1 "power.sch" 60
+F0 "POWER" 60
+F1 "POWER.sch" 60
 $EndSheet
 $EndSCHEMATC
